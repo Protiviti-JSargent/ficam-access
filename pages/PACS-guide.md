@@ -41,15 +41,15 @@ The Federal government use Online Certificate Status Protocol (OCSP) Responders 
 
 PACS used to make access control decisions within the Federal government may consist of many components to include:
 
-* Smartcard Reader (used to read information about a person stored on the smartcard) 
+* _**Smartcard Reader**_ (used to read information about a person stored on the smartcard) 
 
-* PACS Infrastructure Controller (used to control the opening of gates and doors) 
+* _**PACS Infrastructure Controller**_ (used to control the opening of gates and doors) 
 
-* Secure Controller (located in a secure area and communicates with the PIV Card, Head End System, and PACS Infrastructure Controller to make access control decisions)
+* _**Secure Controller**_ (located in a secure area and communicates with the PIV Card, Head End System, and PACS Infrastructure Controller to make access control decisions)
 
-*	Database Server (contains the names of smartcard holders and their facility access rights) 
+*	_**Database Server**_ (contains the names of smartcard holders and their facility access rights) 
 
-*	Head End System/Access Control Server (Used to register PIV Cardholders into the PACS and to refresh the controller with the latest information)
+*	_**Head End System/Access Control Server**_ (Used to register PIV Cardholders into the PACS and to refresh the controller with the latest information)
 
 There are other components that makes up a PACS that plays an important role with making physical access control decisions.  Those  components will be discussed in more detail later in this guide.
 
