@@ -141,7 +141,7 @@ Used in conjunction with the PIV Reader to provide two-factor authentication. Pe
 
 *	**Fingerprint sensor**
 
-Used with PIV Card Readers and the Pin Pad to provide 3 factor authentication. The fingerprint sensor can be used to access biometric data stored on the PIV Card to provide physical access to a Federal facility. Off-Card Biometric Comparison requires a PIN to be utilized with your finger print Biometric.  The fingerprint sensor will also require a PIN Pad to allow the PIV Card PIN to be entered.  On Card Biometric Comparison (OCC) doesn’t require a PIN Pad but no OCC Biometric reader has been submitted to the GSA for approval.  
+Used with PIV Card Readers and the Pin Pad to provide three-factor authentication. The fingerprint sensor can be used to access biometric data stored on the PIV Card to provide physical access to a Federal facility. Off-Card Biometric Comparison requires a PIN to be utilized with your finger print Biometric.  The fingerprint sensor will also require a PIN Pad to allow the PIV Card PIN to be entered.  On Card Biometric Comparison (OCC) doesn’t require a PIN Pad but no OCC Biometric reader has been submitted to the GSA for approval.  
 
 *	**Other biometric modalities** 
 
