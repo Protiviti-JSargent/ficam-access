@@ -8,7 +8,7 @@ permalink: /PACS-guide/
 # What is a Physical Access Control System (PACS)
 
 ## Introduction
-This guide is intended to provide a general overview of the Federal Information Processing Standard (FIPS) 201 Personal Identity Verification (PIV) compliant PACS that are used within the Federal government.  It will provide information on the components that make up a PACS solution, how PACS components work together to provide physical access control for Federal agencies and where these approved PACS products can be found.  In addition, this guide will discuss the benefits of PIV compliant PACS and the General Services Administration (GSA) FIPS 201 Evaluation Program’s PACS testing and why it’s needed.
+This guide is intended to provide a general overview of the Federal Information Processing Standard (FIPS) 201 Personal Identity Verification (PIV) compliant PACS that are used within the federal government.  It will provide information on the components that make up a PACS solution, how PACS components work together to provide physical access control for federal agencies and where these approved PACS products can be found.  In addition, this guide will discuss the benefits of PIV compliant PACS and the General Services Administration (GSA) FIPS 201 Evaluation Program’s PACS testing and why it’s needed.
 
 1. [PACS Overview "what is a PACS"](https://github.com/thiligh/ficam-access/blob/PACS-PLABOOK-FOLDER/pages/PACS-guide.md#pacs-overview-what-is-a-pacs)
 1. [Why Implement the NIST PIV Standard?](https://github.com/thiligh/ficam-access/blob/PACS-PLABOOK-FOLDER/pages/PACS-guide.md#why-implement-the-nist-piv-standard)
