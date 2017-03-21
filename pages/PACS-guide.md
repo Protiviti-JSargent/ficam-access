@@ -71,11 +71,11 @@ HSPD-12 is a strategic initiative intended to enhance security, increase governm
 
 ![Example PIV card](../img/PIV_card.png)
 
-*	The PIV Card is the individual cardholders identity credential for accessing government buildings, facilities and computer networks.
+*	The PIV Card is the individual cardholder's identity credential for accessing government buildings, facilities and computer networks.
 
 * PIV PACS are required to access and validate the appropriate PIV certificate to meet the facilities security assurance level requirements.
 
-* The assurance level required for each federal facility will determine which certificate stored on the PIV card will be needed for physical access into that facility.  A federal facillity may require:
+* The assurance level required for each federal facility will determine which certificate stored on the PIV card will be needed for physical access into that facility.  A federal facility may require:
 
   * **Single Factor Authentication** - Something you have (PIV Card) + visual check
   * **Two Factor Authentication** - something you have  (PIV Card) + something you know (PIN)
@@ -104,7 +104,7 @@ NIST FIPS 201 provided the opportunity to migrate building access systems from L
 
 * Maintain a system less susceptible to identity fraud, tampering, counterfeiting and terrorist exploitation
 
-* Enables the PIV card to be centrally managed by the issuer, so that card loss or terminatioin results in disabling the card in any PACS database in which the card exists
+* Enables the PIV card to be centrally managed by the issuer, so that card loss or termination results in disabling the card in any PACS database in which the card exists
 
 ## PACS Component Categories
 
@@ -149,15 +149,15 @@ Iris comparison is the only other allowable biometric.  As of today, no iris rea
 
 * **LCD Display**
 
-Provide PACS visual notifications to PIV Cardholders.  Visual notifications can include error messages; proceed or stop messages or some other type of notification to alert or direct an individual. Intergrated into PACS.
+Provide PACS visual notifications to PIV Cardholders.  Visual notifications can include error messages; proceed or stop messages or some other type of notification to alert or direct an individual. Integrated into PACS.
 
 * **LED lights**
 
-Similar to LCD displays in that they are used to provide a visual message to the PIV Cardholder. LED lights can be used to display a green arrow to inform an individual to proceed through a gate/turnstile once a PIV Cardholder credentials have been validated and the individual is authorized and granted access to the facility. Intergrated into PACS.
+Similar to LCD displays in that they are used to provide a visual message to the PIV Cardholder. LED lights can be used to display a green arrow to inform an individual to proceed through a gate/turnstile once a PIV Cardholder credentials have been validated and the individual is authorized and granted access to the facility. Integrated into PACS.
 
 *	**Audio announcers**
 
-Used in PACS to provide audible alerts. Intergrated into PACS.
+Used in PACS to provide audible alerts. Integrated into PACS.
 
 *	**Communications to a Validation System**
 
@@ -168,7 +168,7 @@ The PACS Validation System provides the necessary functions to perform identific
 
 *	**Caching status proxy server - (Core Component)**
 
-Used to cache PIV-Cardholders data to optimize the performance of PACS.  It continuously validates all of the certificates captured from all of the PIV Cards stored in the PACS database so that the certifcate trust path and revocation status are immediately available when the card is presented at the PACS. 
+Used to cache PIV-Cardholders data to optimize the performance of PACS.  It continuously validates all of the certificates captured from all of the PIV Cards stored in the PACS database so that the certificate trust path and revocation status are immediately available when the card is presented at the PACS. 
 
 *	**Secure Controllers - (Core Component)**
 
@@ -180,7 +180,7 @@ The PKI validation software can be part of the Caching Status Proxy Server, PKI 
 
 *	**PKI/PIV Card Registration and Management Software - (Core Component)**
 
-Used to validate and capture demographic/PKI information from the PIV card and register the card with the PACS.  The data captured is stored in the PACS and used by the PACS PKI management software to manage the users authorization requirements to a facility.  The PIV card information validated, captured and stored into the PACS can include, the PIV cardholder's name, card number, expiration date, photo, and certificates.  The PKI registration and management software is an integrated part of the PACS.
+Used to validate and capture demographic/PKI information from the PIV card and register the card with the PACS.  The data captured is stored in the PACS and used by the PACS PKI management software to manage the user's authorization requirements to a facility.  The PIV card information validated, captured and stored into the PACS can include, the PIV cardholder's name, card number, expiration date, photo, and certificates.  The PKI registration and management software is an integrated part of the PACS.
 
 *	**Server-based Certificate Validation Protocol (SCVP) Server - (Separate Component)**
 
