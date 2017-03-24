@@ -226,4 +226,4 @@ GSA has tools available to help agencies and vendors test their products and imp
 
 * [HSPD-12 documentation that facilitated the development of the FIPS 201 PIV Standard](https://www.dhs.gov/homeland-security-presidential-directive-12)
 
-* [NIST FIPS 201 provides information on PIV requirements](http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.201-2.pdf)
+* [NIST FIPS PUB 201 provides information on PIV requirements](http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.201-2.pdf)
