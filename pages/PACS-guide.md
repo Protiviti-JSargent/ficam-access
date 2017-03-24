@@ -31,11 +31,11 @@ The most recognizable physical access control method and the one synonymous with
 
 As technology advanced and matured, PACS have become a critical component in the federal government’s quest to provide better physical access control.  PACS are a reliable way to provide an additional layer of security to enhance traditional physical access control methods (e.g., security guards, fences etc.), and in some instances, replace traditional methods entirely. PACS can be used to protect the outer perimeter such as entry and exit points to a building or they can be used for interior access control to a room.  
 
-A PACS can be a proximity reader that wirelessly reads the information off of a proximity card to electronically unlock a door (replacing the traditional lock and key solution with an electronic version) or a PACS can be a very complex system, comprised of many components used to make physical access control decisions such as the PACS used in federal facilities. 
+A PACS can be a proximity reader that wirelessly reads the information off of a proximity card to electronically unlock a door (replacing the traditional lock and key solution with an electronic version) or a PACS can be a very complex system, comprised of many components used to make physical access control decisions such as the PACS's used in federal facilities. 
 
 ![Alt Proximity_and_PACS2](../img/Proximity_and_PACS2.JPG)
 
-PACS used for secure federal buildings utilize Public Key Infrastructure (PKI) technology to help strengthen access control decisions.  PKI use public and private keys to facilitate the secure exchange of electronic information.  PKI is a process that binds public keys and identifying information (contained on certificates) to a person.  The binding is established through a process of registration and the issuance of certificates by a trusted source (i.e., Certificate Authority).  
+A PACS used for secure federal buildings utilize Public Key Infrastructure (PKI) technology to help strengthen access control decisions.  PKI use public and private keys to facilitate the secure exchange of electronic information.  PKI is a process that binds public keys and identifying information (contained on certificates) to a person.  The binding is established through a process of registration and the issuance of certificates by a trusted source (i.e., Certificate Authority).  
 
 The federal government use Online Certificate Status Protocol (OCSP) Responders to determine if a PKI certificate has been revoked. PACS access this information to help make physical access control decisions. If a smartcard holder certificates have been revoked, the smartcard holder will be denied access into the facility. The utilization of an OCSP Responder is one of many components used to make physical access control decisions within the federal government.  However, an OCSP Responder is normally not a component that will need to be purchased with a PACS as it should already exist as part of the federal government’s PKI. 
 
@@ -83,7 +83,8 @@ HSPD-12 is a strategic initiative intended to enhance security, increase governm
 
 Note: Possession of a valid PIV Card as evidence by visual inspection of the card, reading a signed identity cert from the card, or performing challenge/response authentication with the card, provides one-factor authentication.  See examples below:  
 
-*	PACS can perform a private key challenge/response using the Card Authentication Key (CAK) to validate the PIV Card is authentic or
+*	Security guard performs visual check of the PIV Card to ensure card is authentic, picture matches cardholder and card has not expired 
+* PACS can perform a private key challenge/response using the Card Authentication Key (CAK) to validate the PIV Card is authentic or
 *	PACS can perform a signature check of the Cardholder Unique Identifier (CHUID) to ensure it was signed by a trusted source and is unaltered and check the expiration date to ensure it’s still valid.
 
 NIST FIPS 201 provided the opportunity to migrate building access systems from LITTLE OR NO confidence assurance levels to VERY HIGH confidence assurance levels.
