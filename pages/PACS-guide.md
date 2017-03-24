@@ -224,5 +224,4 @@ GSA has tools available to help agencies and vendors test their products and imp
 
 ## Resources
 
-*Will update with reference links to info on FIPS compliance testing, PACS implementation guide, & policy docs*
 [NIST FIPS 201 provides information on PIV requirements](http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.201-2.pdf)
